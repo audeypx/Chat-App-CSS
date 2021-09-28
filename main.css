@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-left {
+	position: absolute;
+	z-index: -2;
+	top: 0;
+	left: 0;
+	height: 85%;
+	width: 30%;
+	background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	border-radius: 0% 0% 60% 40% / 10% 10% 30% 10%;
+}
+
+.background-right{
+    position: absolute;
+	z-index: -2;
+	bottom: 0;
+	right: 0;
+	height: 85%;
+	width: 22%;
+	background: linear-gradient(
+		hsla(264, 100%, 61%, 0.05),
+		hsl(293, 100%, 63%, 0.05)
+	);
+	border-radius: 60% 40% 0% 0% / 35% 10% 10% 10%;
+}
