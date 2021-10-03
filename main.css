@@ -122,4 +122,6 @@ img.avatar{
 
 .chat-box{
 	background-color: hsl(270, 20%, 96%);
+	border-bottom-left-radius:25px ;
+	border-bottom-right-radius:25px ;
 }
